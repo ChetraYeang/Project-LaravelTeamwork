@@ -1,3 +1,4 @@
+
 <!DOCTYPE html>
 <!--
 This is a starter template page. Use this page to start your new project from
@@ -29,7 +30,7 @@ scratch. This page gets rid of all links and provides the needed markup only.
     <script src="https://oss.maxcdn.com/libs/respond.js/1.3.0/respond.min.js"></script>
     <![endif]-->
 </head>
-<body class="skin-blue">
+<body class="hold-transition skin-blue sidebar-mini">
     <div class="wrapper">
         @include('header')
         @include('sidebar')
@@ -60,7 +61,7 @@ scratch. This page gets rid of all links and provides the needed markup only.
 
     <!-- Footer -->
     @include('footer')
-
+    @include('col-slidebar')
 </div><!-- ./wrapper -->
 
 <!-- REQUIRED JS SCRIPTS -->
